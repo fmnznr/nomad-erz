@@ -6,7 +6,11 @@ Ausgabe in dist/:
   gpx/                     – Kartenpunkte für Organic Maps / OsmAnd (falls data/osm/pois.json existiert)
   nomad-erzgebirge.zim     – Datei für die Kiwix-App (iPhone, Android, PC)
 
-Aufruf:  python3 scripts/build_zim.py [--no-zim]
+Private Angaben (Hausarzt, Notfallkontakte …) stehen in privat/eintraege.txt und
+eigene Seiten in privat/seiten/*.md. Der Ordner privat/ wird nicht ins Repo übernommen.
+Sind private Daten vorhanden, heißt die Ausgabe nomad-erzgebirge-privat.zim.
+
+Aufruf:  python3 scripts/build_zim.py [--no-zim] [--ohne-privat]
 """
 import argparse
 import html
@@ -25,7 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 DIST = ROOT / "dist"
 POIS = ROOT / "data" / "osm" / "pois.json"
+PRIVAT = ROOT / "privat"
 ZIM_NAME = "nomad-erzgebirge.zim"
+ZIM_NAME_PRIVAT = "nomad-erzgebirge-privat.zim"
+NICHT_EINGETRAGEN = "*nicht eingetragen*"
 
 TITLE = "NOMAD Erzgebirge"
 DESCRIPTION = "Offline-Wissen für Zwönitz & Erzgebirgskreis: Natur, Notfall, Karten"
@@ -90,7 +97,7 @@ def page(path: str, title: str, body: str, crumbs: list[tuple[str, str]]) -> str
 """
 
 
-SECTION_TITLES = {"natur": "Natur", "notfall": "Notfall", "geografie": "Geografie"}
+SECTION_TITLES = {"natur": "Natur", "notfall": "Notfall", "geografie": "Geografie", "privat": "Meine Notizen"}
 
 
 def crumbs_for(path: str) -> list[tuple[str, str]]:
@@ -106,6 +113,37 @@ def render_md(text: str) -> tuple[str, str]:
     m = re.search(r"^#\s+(.+)$", text, re.M)
     title = m.group(1).strip() if m else "Ohne Titel"
     return title, body
+
+
+# ---------------------------------------------------------------- Private Angaben
+
+def load_privat(use: bool) -> tuple[dict[str, str], list[Path]]:
+    """Liest privat/eintraege.txt (Zeilen 'schluessel = Wert') und privat/seiten/*.md."""
+    values: dict[str, str] = {}
+    pages: list[Path] = []
+    if not use or not PRIVAT.is_dir():
+        return values, pages
+    f = PRIVAT / "eintraege.txt"
+    if f.exists():
+        for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" not in line:
+                print(f"⚠️  {f.relative_to(ROOT)}:{n}: 'schluessel = Wert' erwartet")
+                continue
+            key, val = (x.strip() for x in line.split("=", 1))
+            if val:
+                values[key] = val.replace("|", "\\|")
+    pages = sorted((PRIVAT / "seiten").glob("*.md")) if (PRIVAT / "seiten").is_dir() else []
+    return values, pages
+
+
+def fill_privat(text: str, values: dict[str, str], used: set[str]) -> str:
+    def repl(m: re.Match) -> str:
+        used.add(m.group(1))
+        return values.get(m.group(1), NICHT_EINGETRAGEN)
+    return re.sub(r"\{\{privat:([a-z0-9_]+)\}\}", repl, text)
 
 
 def haversine_km(a, b) -> float:
@@ -268,7 +306,7 @@ def illustration_png(size: int = 48) -> bytes:
 
 # ---------------------------------------------------------------- ZIM
 
-def write_zim(pages: dict, files: dict, out: Path) -> None:
+def write_zim(pages: dict, files: dict, out: Path, private: bool = False) -> None:
     from libzim.writer import Creator, Hint, Item, StringProvider
 
     class Entry(Item):
@@ -288,8 +326,8 @@ def write_zim(pages: dict, files: dict, out: Path) -> None:
         c.set_mainpath("index.html")
         c.add_illustration(48, illustration_png())
         meta = {
-            "Name": "nomad-erzgebirge_de",
-            "Title": TITLE,
+            "Name": "nomad-erzgebirge-privat_de" if private else "nomad-erzgebirge_de",
+            "Title": f"{TITLE} (privat)" if private else TITLE,
             "Description": DESCRIPTION[:80],
             "LongDescription": "Regionale Offline-Wissensdatenbank nach dem Vorbild von Project NOMAD: Flora, Fauna, "
                                "Pilze, Erste Hilfe, Krisenvorsorge, Wettergefahren, Geografie und Kartenpunkte für "
@@ -314,13 +352,36 @@ def write_zim(pages: dict, files: dict, out: Path) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-zim", action="store_true", help="nur HTML/GPX erzeugen")
+    ap.add_argument("--ohne-privat", action="store_true", help="privat/ ignorieren (öffentliche Version)")
     args = ap.parse_args()
+
+    values, private_pages = load_privat(not args.ohne_privat)
+    is_private = bool(values or private_pages)
+    used: set[str] = set()
 
     raw_pages: dict[str, tuple[str, str, list]] = {}
     for md_file in sorted(CONTENT.rglob("*.md")):
         rel = md_file.relative_to(CONTENT).with_suffix(".html").as_posix()
-        title, body = render_md(md_file.read_text(encoding="utf-8"))
+        title, body = render_md(fill_privat(md_file.read_text(encoding="utf-8"), values, used))
         raw_pages[rel] = (title, body, crumbs_for(rel))
+
+    unknown = sorted(set(values) - used)
+    if unknown:
+        print("⚠️  Unbekannte Schlüssel in privat/eintraege.txt: " + ", ".join(unknown))
+
+    if private_pages:
+        items = []
+        for md_file in private_pages:
+            rel = f"privat/{md_file.stem}.html"
+            title, body = render_md(md_file.read_text(encoding="utf-8"))
+            raw_pages[rel] = (title, body, crumbs_for(rel))
+            items.append(f'<li><a href="{md_file.stem}.html">{html.escape(title)}</a></li>')
+        raw_pages["privat/index.html"] = (
+            "Meine Notizen", f"<h1>📒 Meine Notizen</h1>\n<ul class=\"cards\">{''.join(items)}</ul>", [])
+        t, b, c = raw_pages["index.html"]
+        b = b.replace("<h2 id=\"schnellzugriff\">",
+                      "<h3>📒 <a href=\"privat/index.html\">Meine Notizen</a></h3>\n<h2 id=\"schnellzugriff\">", 1)
+        raw_pages["index.html"] = (t, b, c)
 
     files: dict[str, bytes] = {"style.css": (ROOT / "scripts" / "style.css").read_bytes()}
     build_poi_pages(raw_pages, files)
@@ -365,9 +426,13 @@ def main() -> None:
         shutil.copytree(html_dir / "gpx", gdir)
     print(f"{len(pages)} Seiten → {html_dir.relative_to(ROOT)}")
 
+    if is_private:
+        print(f"🔒 Private Angaben eingebunden ({len(values)} Einträge, {len(private_pages)} Seiten) "
+              "– diese Dateien nicht veröffentlichen!")
+
     if not args.no_zim:
-        out = DIST / ZIM_NAME
-        write_zim(pages, files, out)
+        out = DIST / (ZIM_NAME_PRIVAT if is_private else ZIM_NAME)
+        write_zim(pages, files, out, is_private)
         print(f"ZIM → {out.relative_to(ROOT)} ({out.stat().st_size / 1024:.0f} KB)")
 
     if broken:

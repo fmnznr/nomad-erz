@@ -9,26 +9,28 @@ Ziel: ein komplett offline nutzbares Wissens-iPhone nach dem Vorbild von [Projec
 | Ollama (lokale KI) | **PocketPal AI** |
 | Eigene Inhalte | **`nomad-erzgebirge.zim`** aus diesem Projekt |
 
+> **Schneller mit Mac/PC:** `python3 scripts/nomad_download.py` lädt alle Pakete auf einmal (inkl. Wikipedia, mit Fortsetzen bei Abbruch) in den Ordner `~/NOMAD-iPhone`. Danach per Kabel aufs iPhone übertragen, siehe `LIESMICH.txt` im Zielordner. Dann entfallen die Downloads in Schritt 1 und 2. Apps installieren und Karten laden musst du trotzdem.
+
 ---
 
 ## 0. Speicherplan für 64 GB
 
-iOS und die Grund-Apps belegen ca. 12–18 GB. Prüfe den freien Platz unter *Einstellungen → Allgemein → iPhone-Speicher*. Die Größen ändern sich mit jeder Version, deshalb vor dem Download in der Kiwix-Bibliothek nachsehen.
+iOS und die Grund-Apps belegen ca. 12–18 GB. Prüfe den freien Platz unter *Einstellungen → Allgemein → iPhone-Speicher*. Die Größen (Stand Herbst 2026) ändern sich mit jeder Version. Aktuelle Werte zeigt `python3 scripts/nomad_download.py --nur-anzeigen` oder die Kiwix-Bibliothek.
 
 | Paket | ca. Größe | Priorität |
 |---|---|---|
 | `nomad-erzgebirge.zim` (dieses Projekt) | < 1 MB | ★★★ |
 | Organic Maps: Sachsen + tschechisches Grenzgebiet | 0,3–0,6 GB | ★★★ |
-| **Wikipedia Deutsch ohne Bilder** (`wikipedia_de_all_nopic`) | ca. 10–14 GB | ★★★ |
+| **Wikipedia Deutsch ohne Bilder** (`wikipedia_de_all_nopic`) | ca. 14,6 GB | ★★★ |
 | KI-Modell (1–2 Mrd. Parameter, Q4) | 0,8–1,5 GB | ★★ |
-| Wikivoyage Deutsch (`wikivoyage_de_all`) | ca. 0,5–1 GB | ★★ |
-| Wikibooks Deutsch (Kochbuch, Anleitungen) (`wikibooks_de_all_nopic`) | < 1 GB | ★★ |
-| Wiktionary Deutsch (`wiktionary_de_all_nopic`) | ca. 1 GB | ★ |
-| iFixit (Englisch, Reparaturanleitungen) (`ifixit_en_all`) | ca. 3 GB | ★ |
-| „zimgit“-Pakete (Englisch): `zimgit-post-disaster`, `zimgit-water`, `zimgit-medicine`, `zimgit-food-preparation` | je 0,1–1 GB | ★ |
+| Wikivoyage Deutsch (`wikivoyage_de_all_maxi`) | ca. 1,3 GB | ★★ |
+| Wikibooks Deutsch (Kochbuch, Anleitungen) (`wikibooks_de_all_nopic`) | ca. 2,9 GB | ★ |
+| Wiktionary Deutsch (`wiktionary_de_all_nopic`) | ca. 1,3 GB | ★ |
+| iFixit (Englisch, Reparaturanleitungen) (`ifixit_en_all`) | ca. 3,6 GB | ★ |
+| „zimgit“-Pakete (Englisch): `zimgit-post-disaster`, `zimgit-water`, `zimgit-medicine`, `zimgit-food-preparation` | zusammen ca. 0,8 GB | ★ |
 | MedlinePlus / WikEM (Englisch, Medizin) | je ca. 0,5–2 GB | ★ |
 
-**Basis-Paket (★★★ + ★★): ca. 15–18 GB.** Es bleibt genug Puffer für Fotos und Updates.
+**Basis-Paket (★★★ + ★★): ca. 18 GB.** Alles zusammen (inkl. ★) ca. 27 GB. Auf 64 GB passt beides, es bleibt Puffer für Fotos und Updates.
 Wird es zu knapp: `wikipedia_de_all_mini` (nur Artikel-Einleitungen) statt `nopic`.
 
 ---
@@ -39,7 +41,7 @@ Wird es zu knapp: `wikipedia_de_all_mini` (nur Artikel-Einleitungen) statt `nopi
 2. Im WLAN: *Bibliothek → Kategorien* durchsuchen, Sprache **Deutsch** filtern und die Pakete aus der Tabelle oben laden.
 3. **Eigene Datenbank hinzufügen:**
     - In Safari öffnen: `https://github.com/fmnznr/nomad-erz/releases/latest/download/nomad-erzgebirge.zim`
-      (bei privatem Repository vorher bei GitHub anmelden)
+      (funktioniert ohne Anmeldung, wenn das Repository öffentlich ist)
     - Download landet in der **Dateien-App** (Ordner *Downloads*).
     - Kiwix → *Bibliothek* → **„+“ / Öffnen** → Datei auswählen. Alternativ in der Dateien-App die Datei antippen → *Teilen* → **Kiwix**.
 4. Die Volltextsuche funktioniert offline (z. B. „Kreuzotter“, „Steinpilz“, „Stromausfall“).
@@ -90,6 +92,10 @@ Wenn du etwas nicht sicher weißt, sag das.
 | **Flora Incognita** | Pflanzenbestimmung (TU Ilmenau), braucht meist Internet. Nur als Hinweis, nicht für Essbarkeit. |
 
 ## 5. Pflege
+
+**Automatisch:** Ein Kurzbefehl lädt Datenbank und Kartenpunkte monatlich im WLAN: [kurzbefehl-update.md](kurzbefehl-update.md).
+
+**Private Angaben** (Hausarzt, Notfallkontakte, Familien-Notfallplan) kommen nur in die Datenbank, wenn du sie am Mac/PC selbst baust (README → „Private Angaben“). Ohne Computer: im *Notfallpass* (Health) und in einer Notiz speichern.
 
 - **Alle 3–6 Monate** im WLAN: Kiwix-Pakete, Organic-Maps-Karten und die NOMAD-ZIM aktualisieren.
 - **Akku:** Das iPhone im Notfallrucksack bei 50–80 % lagern und alle paar Monate nachladen. Powerbank dazulegen.

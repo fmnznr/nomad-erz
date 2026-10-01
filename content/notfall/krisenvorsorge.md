@@ -48,7 +48,7 @@ Tipp: **„Lebender Vorrat“**, also das kaufen, was man ohnehin isst, und ält
 - **Heizen ohne Strom:** **einen** Raum beheizen (Kaminofen, wenn vorhanden), Türen schließen, Fenster abdichten, in Schichten anziehen, Schlafsack. **Keine** Gasgrills oder Heizpilze drinnen!
 - Elektrogeräte vom Netz trennen (Überspannung bei Wiederkehr). **Eine Lampe** eingeschaltet lassen, um die Rückkehr des Stroms zu bemerken.
 - Nachbarn helfen: ältere Menschen, Pflegebedürftige, Menschen mit medizinischen Geräten (Sauerstoff, Heimbeatmung).
-- Gemeinden richten bei langen Ausfällen **Anlaufstellen** (Notfall- oder Wärmeinseln) ein, oft bei Feuerwehr, Rathaus oder Schule. **Vorab** bei der Stadt Zwönitz erfragen und hier eintragen: _eintragen_
+- Gemeinden richten bei langen Ausfällen **Anlaufstellen** (Notfall- oder Wärmeinseln) ein, oft bei Feuerwehr, Rathaus oder Schule. **Vorab** bei der Stadt Zwönitz erfragen. Deine Anlaufstelle: {{privat:notfall_anlaufstelle}}
 
 ## Winterkrise (Schnee, Eis, „Anraum“)
 
