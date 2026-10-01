@@ -16,9 +16,9 @@ Offline-Wissensdatenbank für **Zwönitz und den Erzgebirgskreis**, gedacht für
 ## Alles auf einmal herunterladen (Mac/PC)
 
 ```bash
-python3 scripts/nomad_download.py                    # Profil „basis“ (~15 GB) nach ~/NOMAD-iPhone
+python3 scripts/nomad_download.py                    # Profil „basis“ (~16 GB) nach ~/NOMAD-iPhone
 python3 scripts/nomad_download.py --nur-anzeigen     # vorher ansehen, was geladen würde
-python3 scripts/nomad_download.py --profil erweitert # + Wiktionary, iFixit, zimgit-Pakete
+python3 scripts/nomad_download.py --profil erweitert # + Wikibooks, Wiktionary, iFixit, zimgit (~25 GB)
 python3 scripts/nomad_download.py --profil minimal   # Wikipedia nur Einleitungen
 ```
 

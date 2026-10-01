@@ -52,7 +52,7 @@ PAKETE = [
     Paket("Wikipedia DE (nur Einleitungen)", "wikipedia", ["wikipedia_de_all_mini"], {"minimal"}),
     Paket("Wikipedia DE (ohne Bilder)", "wikipedia", ["wikipedia_de_all_nopic"], {"basis", "erweitert"}),
     Paket("Wikivoyage DE", "wikivoyage", ["wikivoyage_de_all_maxi", "wikivoyage_de_all_nopic"], {"basis", "erweitert"}),
-    Paket("Wikibooks DE", "wikibooks", ["wikibooks_de_all_nopic", "wikibooks_de_all_maxi"], {"basis", "erweitert"}),
+    Paket("Wikibooks DE", "wikibooks", ["wikibooks_de_all_nopic", "wikibooks_de_all_maxi"], {"erweitert"}),
     Paket("Wiktionary DE", "wiktionary", ["wiktionary_de_all_nopic", "wiktionary_de_all_maxi"], {"erweitert"}),
     Paket("iFixit (EN, Reparatur)", "ifixit", ["ifixit_en_all"], {"erweitert"}),
     Paket("Post-Disaster (EN)", "other", ["zimgit-post-disaster_en"], {"erweitert"}),

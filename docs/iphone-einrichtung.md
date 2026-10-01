@@ -15,22 +15,22 @@ Ziel: ein komplett offline nutzbares Wissens-iPhone nach dem Vorbild von [Projec
 
 ## 0. Speicherplan für 64 GB
 
-iOS und die Grund-Apps belegen ca. 12–18 GB. Prüfe den freien Platz unter *Einstellungen → Allgemein → iPhone-Speicher*. Die Größen ändern sich mit jeder Version, deshalb vor dem Download in der Kiwix-Bibliothek nachsehen.
+iOS und die Grund-Apps belegen ca. 12–18 GB. Prüfe den freien Platz unter *Einstellungen → Allgemein → iPhone-Speicher*. Die Größen (Stand Herbst 2026) ändern sich mit jeder Version. Aktuelle Werte zeigt `python3 scripts/nomad_download.py --nur-anzeigen` oder die Kiwix-Bibliothek.
 
 | Paket | ca. Größe | Priorität |
 |---|---|---|
 | `nomad-erzgebirge.zim` (dieses Projekt) | < 1 MB | ★★★ |
 | Organic Maps: Sachsen + tschechisches Grenzgebiet | 0,3–0,6 GB | ★★★ |
-| **Wikipedia Deutsch ohne Bilder** (`wikipedia_de_all_nopic`) | ca. 10–14 GB | ★★★ |
+| **Wikipedia Deutsch ohne Bilder** (`wikipedia_de_all_nopic`) | ca. 14,6 GB | ★★★ |
 | KI-Modell (1–2 Mrd. Parameter, Q4) | 0,8–1,5 GB | ★★ |
-| Wikivoyage Deutsch (`wikivoyage_de_all`) | ca. 0,5–1 GB | ★★ |
-| Wikibooks Deutsch (Kochbuch, Anleitungen) (`wikibooks_de_all_nopic`) | < 1 GB | ★★ |
-| Wiktionary Deutsch (`wiktionary_de_all_nopic`) | ca. 1 GB | ★ |
-| iFixit (Englisch, Reparaturanleitungen) (`ifixit_en_all`) | ca. 3 GB | ★ |
-| „zimgit“-Pakete (Englisch): `zimgit-post-disaster`, `zimgit-water`, `zimgit-medicine`, `zimgit-food-preparation` | je 0,1–1 GB | ★ |
+| Wikivoyage Deutsch (`wikivoyage_de_all_maxi`) | ca. 1,3 GB | ★★ |
+| Wikibooks Deutsch (Kochbuch, Anleitungen) (`wikibooks_de_all_nopic`) | ca. 2,9 GB | ★ |
+| Wiktionary Deutsch (`wiktionary_de_all_nopic`) | ca. 1,3 GB | ★ |
+| iFixit (Englisch, Reparaturanleitungen) (`ifixit_en_all`) | ca. 3,6 GB | ★ |
+| „zimgit“-Pakete (Englisch): `zimgit-post-disaster`, `zimgit-water`, `zimgit-medicine`, `zimgit-food-preparation` | zusammen ca. 0,8 GB | ★ |
 | MedlinePlus / WikEM (Englisch, Medizin) | je ca. 0,5–2 GB | ★ |
 
-**Basis-Paket (★★★ + ★★): ca. 15–18 GB.** Es bleibt genug Puffer für Fotos und Updates.
+**Basis-Paket (★★★ + ★★): ca. 18 GB.** Alles zusammen (inkl. ★) ca. 27 GB. Auf 64 GB passt beides, es bleibt Puffer für Fotos und Updates.
 Wird es zu knapp: `wikipedia_de_all_mini` (nur Artikel-Einleitungen) statt `nopic`.
 
 ---
