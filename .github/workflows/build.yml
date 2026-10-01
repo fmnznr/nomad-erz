@@ -1,0 +1,52 @@
+name: Build ZIM
+
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 1 * *"   # monatlich frische OSM-Daten
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten
+        run: pip install -r requirements.txt
+
+      - name: Kartenpunkte aus OpenStreetMap laden
+        run: python3 scripts/fetch_osm.py
+        continue-on-error: true
+
+      - name: ZIM bauen
+        run: python3 scripts/build_zim.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nomad-erzgebirge
+          path: |
+            dist/nomad-erzgebirge.zim
+            dist/gpx/
+
+      - name: Release veröffentlichen
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: NOMAD Erzgebirge (Build ${{ github.run_number }})
+          make_latest: "true"
+          body: |
+            Offline-Datenbank für Kiwix + Kartenpunkte (GPX) für Organic Maps.
+            Kartendaten © OpenStreetMap-Mitwirkende (ODbL).
+          files: |
+            dist/nomad-erzgebirge.zim
+            dist/gpx/*.gpx
