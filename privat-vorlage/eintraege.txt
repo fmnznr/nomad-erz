@@ -1,0 +1,27 @@
+# Private Angaben für NOMAD Erzgebirge
+#
+# 1. Diesen Ordner nach "privat/" kopieren (privat/eintraege.txt).
+#    Der Ordner privat/ wird von git ignoriert und landet nie im öffentlichen Repo.
+# 2. Werte hinter dem "=" eintragen. Leere Werte erscheinen als "nicht eingetragen".
+# 3. Neu bauen: python3 scripts/build_zim.py  (oder scripts/nomad_download.py)
+#    → dist/nomad-erzgebirge-privat.zim
+#
+# Eigene Seiten (Markdown) kannst du unter privat/seiten/*.md ablegen, z. B. eine
+# Medikamentenliste, Familien-Notfallplan oder Vorratsliste. Beispiel: seiten/notfallplan.md
+
+# --- Notrufe-Seite (notfall/notrufe) ---
+hausarzt =
+notaufnahme =
+zahnarzt_notdienst =
+tierarzt =
+stadtverwaltung =
+polizeirevier =
+stoerung_strom =
+stoerung_wasser =
+stoerung_gas =
+notfallkontakte =
+
+# --- Zwönitz-Seite (geografie/zwoenitz) und Krisenvorsorge ---
+rathaus =
+notfall_anlaufstelle =
+treffpunkt =

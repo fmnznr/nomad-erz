@@ -9,6 +9,8 @@ Ziel: ein komplett offline nutzbares Wissens-iPhone nach dem Vorbild von [Projec
 | Ollama (lokale KI) | **PocketPal AI** |
 | Eigene Inhalte | **`nomad-erzgebirge.zim`** aus diesem Projekt |
 
+> **Schneller mit Mac/PC:** `python3 scripts/nomad_download.py` lädt alle Pakete auf einmal (inkl. Wikipedia, mit Fortsetzen bei Abbruch) in den Ordner `~/NOMAD-iPhone`. Danach per Kabel aufs iPhone übertragen, siehe `LIESMICH.txt` im Zielordner. Dann entfallen die Downloads in Schritt 1 und 2. Apps installieren und Karten laden musst du trotzdem.
+
 ---
 
 ## 0. Speicherplan für 64 GB
@@ -39,7 +41,7 @@ Wird es zu knapp: `wikipedia_de_all_mini` (nur Artikel-Einleitungen) statt `nopi
 2. Im WLAN: *Bibliothek → Kategorien* durchsuchen, Sprache **Deutsch** filtern und die Pakete aus der Tabelle oben laden.
 3. **Eigene Datenbank hinzufügen:**
     - In Safari öffnen: `https://github.com/fmnznr/nomad-erz/releases/latest/download/nomad-erzgebirge.zim`
-      (bei privatem Repository vorher bei GitHub anmelden)
+      (funktioniert ohne Anmeldung, wenn das Repository öffentlich ist)
     - Download landet in der **Dateien-App** (Ordner *Downloads*).
     - Kiwix → *Bibliothek* → **„+“ / Öffnen** → Datei auswählen. Alternativ in der Dateien-App die Datei antippen → *Teilen* → **Kiwix**.
 4. Die Volltextsuche funktioniert offline (z. B. „Kreuzotter“, „Steinpilz“, „Stromausfall“).
@@ -90,6 +92,10 @@ Wenn du etwas nicht sicher weißt, sag das.
 | **Flora Incognita** | Pflanzenbestimmung (TU Ilmenau), braucht meist Internet. Nur als Hinweis, nicht für Essbarkeit. |
 
 ## 5. Pflege
+
+**Automatisch:** Ein Kurzbefehl lädt Datenbank und Kartenpunkte monatlich im WLAN: [kurzbefehl-update.md](kurzbefehl-update.md).
+
+**Private Angaben** (Hausarzt, Notfallkontakte, Familien-Notfallplan) kommen nur in die Datenbank, wenn du sie am Mac/PC selbst baust (README → „Private Angaben“). Ohne Computer: im *Notfallpass* (Health) und in einer Notiz speichern.
 
 - **Alle 3–6 Monate** im WLAN: Kiwix-Pakete, Organic-Maps-Karten und die NOMAD-ZIM aktualisieren.
 - **Akku:** Das iPhone im Notfallrucksack bei 50–80 % lagern und alle paar Monate nachladen. Powerbank dazulegen.

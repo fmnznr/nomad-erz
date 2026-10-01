@@ -31,20 +31,20 @@ Ruhig bleiben, die Leitstelle führt durch das Gespräch. Wichtig ist vor allem:
 
 ## Persönliche & lokale Nummern
 
-Diese Liste solltest du **selbst ergänzen** (Seite im Quelltext `content/notfall/notrufe.md` bearbeiten und neu bauen):
+Diese Angaben kommen aus deiner privaten Datei `privat/eintraege.txt` und sind nur in deiner selbst gebauten Datenbank enthalten (siehe README, Abschnitt „Private Angaben“). In der öffentlichen Version steht hier „nicht eingetragen“.
 
 | Was | Nummer |
 |---|---|
-| Hausarzt / Hausärztin | _eintragen_ |
-| Nächste Notaufnahme (z. B. Helios Klinikum Aue, Erzgebirgsklinikum, Klinikum Chemnitz) | _eintragen_ |
-| Zahnärztlicher Notdienst Region | _eintragen_ |
-| Tierarzt / Tiernotdienst | _eintragen_ |
-| Stadtverwaltung Zwönitz | _eintragen_ |
-| Polizeirevier (zuständig für Zwönitz) | _eintragen_ |
-| Störung Strom (Netzbetreiber, siehe Stromrechnung) | _eintragen_ |
-| Störung Wasser / Abwasser (Zweckverband, siehe Wasserrechnung) | _eintragen_ |
-| Störung Gas | _eintragen_ |
-| Notfallkontakt 1 / 2 | _eintragen_ |
+| Hausarzt / Hausärztin | {{privat:hausarzt}} |
+| Nächste Notaufnahme (z. B. Helios Klinikum Aue, Erzgebirgsklinikum, Klinikum Chemnitz) | {{privat:notaufnahme}} |
+| Zahnärztlicher Notdienst Region | {{privat:zahnarzt_notdienst}} |
+| Tierarzt / Tiernotdienst | {{privat:tierarzt}} |
+| Stadtverwaltung Zwönitz | {{privat:stadtverwaltung}} |
+| Polizeirevier (zuständig für Zwönitz) | {{privat:polizeirevier}} |
+| Störung Strom (Netzbetreiber, siehe Stromrechnung) | {{privat:stoerung_strom}} |
+| Störung Wasser / Abwasser (Zweckverband, siehe Wasserrechnung) | {{privat:stoerung_wasser}} |
+| Störung Gas | {{privat:stoerung_gas}} |
+| Notfallkontakte | {{privat:notfallkontakte}} |
 
 ## Krankenhäuser mit Notaufnahme (Umkreis, ohne Gewähr)
 
@@ -54,4 +54,4 @@ Die aktuelle Liste mit Koordinaten aus OpenStreetMap steht unter [Kartenpunkte](
 - **Erzgebirgsklinikum** mit Standorten u. a. in **Stollberg** (ca. 10 km nördlich) und **Annaberg-Buchholz** (ca. 15 km südöstlich)
 - **Klinikum Chemnitz** (ca. 20–25 km nordöstlich): Maximalversorgung, Kinderklinik, Schwerverletzte
 
-Welcher Standort eine Notaufnahme rund um die Uhr hat, solltest du vorab prüfen und oben eintragen.
+Welcher Standort eine Notaufnahme rund um die Uhr hat, solltest du vorab prüfen und in deine privaten Angaben übernehmen.

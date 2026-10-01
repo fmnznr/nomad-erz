@@ -25,13 +25,13 @@ Brünlos · Dorfchemnitz · Günsdorf · Hormersdorf · Kühnhaide · Lenkersdor
 - Größere **Waldgebiete** liegen vor allem im Süden und Westen (Richtung Grünhain, Lößnitz, Aue) und gehen in die großen Wälder des Westerzgebirges über.
 - Die Zwönitz entspringt südlich der Stadt und hat ein enges Tal nach Norden geschnitten.
 
-## Wichtige Anlaufpunkte (selbst ergänzen)
+## Wichtige Anlaufpunkte
 
 | Was | Adresse / Notiz |
 |---|---|
-| Rathaus / Bürgerbüro | _eintragen_ |
+| Rathaus / Bürgerbüro | {{privat:rathaus}} |
 | Feuerwehr (Gerätehaus) | siehe [Kartenpunkte](kartenpunkte.md) |
-| Notfall-Anlaufstelle bei Stromausfall | _bei der Stadt erfragen_ |
+| Notfall-Anlaufstelle bei Stromausfall | {{privat:notfall_anlaufstelle}} |
 | Nächster Defibrillator | siehe [Kartenpunkte](kartenpunkte.md) |
 | Apotheke(n) | siehe [Kartenpunkte](kartenpunkte.md) |
-| Treffpunkt der Familie im Notfall | _eintragen_ |
+| Treffpunkt der Familie im Notfall | {{privat:treffpunkt}} |

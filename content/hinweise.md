@@ -11,6 +11,10 @@
 
 Die Inhalte liegen als Markdown im Ordner `content/` des Projekts. Korrekturen und Ergänzungen sind ausdrücklich erwünscht. Nach Änderungen die ZIM-Datei neu bauen (siehe `README.md`).
 
+## Lizenz
+
+Texte: **CC BY-SA 4.0** (Weitergabe und Bearbeitung erlaubt, mit Namensnennung und unter gleicher Lizenz). Programmcode: MIT. Kartendaten: © OpenStreetMap-Mitwirkende, ODbL.
+
 ## Quellen & weiterführend (online)
 
 - Bundesamt für Bevölkerungsschutz (BBK): Ratgeber für Notfallvorsorge

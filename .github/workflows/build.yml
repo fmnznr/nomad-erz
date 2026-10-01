@@ -30,6 +30,10 @@ jobs:
       - name: ZIM bauen
         run: python3 scripts/build_zim.py
 
+      - name: Download-Skript prüfen (Kiwix-Katalog, ohne Download)
+        run: python3 scripts/nomad_download.py --profil erweitert --nur-anzeigen --ohne-eigene --ziel /tmp/nomad
+        continue-on-error: true
+
       - uses: actions/upload-artifact@v4
         with:
           name: nomad-erzgebirge
