@@ -40,3 +40,13 @@
 - Pingen sind trichterförmige Einsturzkrater über alten Gruben.
 - Auf Halden wachsen oft Spezialisten wie Heidekraut, Birke und Flechten. Manche Halden sind mit **Schwermetallen** belastet.
 - Siehe [Gefahren durch Altbergbau](../notfall/bergbau-gefahren.md).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Landesamt für Umwelt, Landwirtschaft und Geologie Sachsen (LfULG): Biotope und Lebensraumtypen
+- Naturpark Erzgebirge/Vogtland
+- Staatsbetrieb Sachsenforst: Waldumbau und Waldzustandsbericht

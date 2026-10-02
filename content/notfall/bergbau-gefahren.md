@@ -29,6 +29,17 @@ Das Erzgebirge wurde **800 Jahre lang** bergbaulich genutzt: Silber, Zinn, Kobal
 
 ## Radon
 
-- Radon ist ein radioaktives Edelgas aus dem Gestein (Granit, Uranerz). Im Erzgebirge ist die Belastung deutschlandweit mit am höchsten. Viele Gemeinden im Erzgebirgskreis sind als **Radonvorsorgegebiete** ausgewiesen.
+- Radon ist ein radioaktives Edelgas aus dem Gestein (Granit, Uranerz). Im Erzgebirge ist die Belastung deutschlandweit mit am höchsten. Viele Gemeinden im Erzgebirgskreis sind als **Radonvorsorgegebiete** ausgewiesen. {{prüfen:Ist Zwönitz Radonvorsorgegebiet?}}
 - Radon sammelt sich in **Kellern und Erdgeschossen** und erhöht das **Lungenkrebsrisiko** (besonders bei Rauchern).
 - Maßnahmen: **regelmäßig stoßlüften**, Keller abdichten, Radonmessung (Exposimeter, ca. 30–50 €; Infos beim Landesamt LfULG / Radonberatungsstelle Sachsen).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Sächsisches Oberbergamt (Freiberg): Altbergbau und Tagesbrüche
+- Bundesamt für Strahlenschutz (BfS): Radon
+- Radonberatungsstelle des Freistaates Sachsen
+- Welterbe Montanregion Erzgebirge/Krušnohoří

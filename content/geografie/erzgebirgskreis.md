@@ -16,7 +16,7 @@
 
 ## Grenzübergänge nach Tschechien (Auswahl, Straße)
 
-Oberwiesenthal – Boží Dar · Johanngeorgenstadt – Potůčky · Bärenstein – Vejprty · Jöhstadt – Černý Potok · Reitzenhain – Hora Sv. Šebestiána · Deutschneudorf – Hora Sv. Kateřiny
+Oberwiesenthal – Boží Dar · Johanngeorgenstadt – Potůčky · Bärenstein – Vejprty · Jöhstadt – Černý Potok · Reitzenhain – Hora Sv. Šebestiána · Deutschneudorf – Hora Sv. Kateřiny {{prüfen:Liste der Grenzübergänge und Öffnung für Kfz prüfen}}
 
 (Für Fuß- und Radwege gibt es viele weitere Übergänge. Tschechische Notrufnummer: **112**, auch **155** Rettung, **150** Feuerwehr, **158** Polizei.)
 
@@ -24,3 +24,12 @@ Oberwiesenthal – Boží Dar · Johanngeorgenstadt – Potůčky · Bärenstein
 
 - **Autobahn A72** (Chemnitz–Zwickau–Hof) im Norden, Anschlussstellen bei Stollberg.
 - **Bahnstrecken**: Chemnitz – Aue – Zwickau bzw. Adorf; Chemnitz – Annaberg-Buchholz – Cranzahl; **Fichtelbergbahn** (Schmalspur) Cranzahl – Oberwiesenthal; Zwickau – Aue – Johanngeorgenstadt.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Landratsamt Erzgebirgskreis – https://www.erzgebirgskreis.de
+- Wikipedia-Artikel „Erzgebirgskreis“

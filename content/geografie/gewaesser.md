@@ -14,11 +14,11 @@ Zschopau ◄── Sehma, Pöhlbach, Preßnitz, Wilisch, Flöha ──► Freibe
 | Fluss / Bach | Verlauf (Auswahl) |
 |---|---|
 | **Zwönitz** | Quellgebiet südlich von Zwönitz → Zwönitz → Thalheim → Burkhardtsdorf → Chemnitz |
-| **Würschnitz** | Raum Stollberg → Jahnsdorf → Chemnitz |
+| **Würschnitz** | Raum Stollberg → Jahnsdorf → Chemnitz {{prüfen:Quellgebiet und Verlauf der Würschnitz}} |
 | **Zwickauer Mulde** | Vogtland → Eibenstock (Talsperre) → Aue → Zwickau |
 | **Schwarzwasser** | Johanngeorgenstadt → Schwarzenberg → Aue |
 | **Zschopau** | Fichtelberg → Wolkenstein → Zschopau → Mittelsachsen |
-| **Pöhlbach / Sehma / Preßnitz** | Zuflüsse der Zschopau aus dem oberen Erzgebirge |
+| **Pöhlbach / Sehma / Preßnitz** | Zuflüsse der Zschopau aus dem oberen Erzgebirge {{prüfen:Mündungen der Zuflüsse prüfen}} |
 | **Flöha** | Tschechien → Olbernhau → Flöha |
 
 ## Talsperren und Teiche (Auswahl)
@@ -44,3 +44,12 @@ Viele **Kunstteiche und Kunstgräben** stammen aus dem Bergbau. Sie trieben Wass
 - Freibäder und ausgewiesene Badestellen bevorzugen. Talsperren sind bis auf Ausnahmen gesperrt.
 - Bergseen sind auch im Sommer kalt (Kälteschock). Nicht erhitzt hineinspringen.
 - Nicht in Stauwehre und Wehranlagen schwimmen (Walzen, Unterströmung).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Landestalsperrenverwaltung des Freistaates Sachsen (LTV)
+- LfULG: Gewässerverzeichnis

@@ -1,5 +1,8 @@
 # Erste Hilfe
 
+!!! warning "Fachlich noch nicht geprüft"
+    Diese Seite wurde noch nicht von Fachleuten gegengelesen (Erste-Hilfe-Ausbildung, Rettungsdienst). Bis dahin gilt sie nur als Orientierung. Siehe [Hinweise](../hinweise.md#fachliche-prufung).
+
 !!! warning "Kein Ersatz für einen Kurs"
     Ein Erste-Hilfe-Kurs (DRK, ASB, Johanniter, Malteser; 9 Unterrichtseinheiten) ist durch nichts zu ersetzen. Alle 2 Jahre auffrischen.
 
@@ -119,3 +122,13 @@ Im Erzgebirge auch im Frühjahr und Herbst möglich: Nässe, Wind, Erschöpfung.
 ## Erste-Hilfe-Ausrüstung (Rucksack)
 
 Rettungsdecke, 2 Paar Einmalhandschuhe, 2 Verbandpäckchen, Mullbinden, Dreiecktuch, Pflaster und Blasenpflaster, Wundschnellverband, Desinfektion, Pinzette, **Zeckenkarte**, Schere, kleines Tape, Schmerzmittel, persönliche Medikamente, Stirnlampe, Trillerpfeife (Notsignal: **6× pro Minute** pfeifen, dann 1 Minute Pause).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- European Resuscitation Council (ERC): Reanimationsleitlinien 2021
+- DGUV Information 204-007: „Handbuch zur Ersten Hilfe“
+- Deutsches Rotes Kreuz (DRK) – https://www.drk.de

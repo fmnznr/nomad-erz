@@ -8,14 +8,14 @@
 | Lage | Westerzgebirge, zwischen Chemnitz und Aue |
 | Koordinaten (Zentrum, ca.) | 50,63° N · 12,81° O |
 | Höhe | ca. 500–700 m ü. NHN (Stadtzentrum ca. 520 m) |
-| Einwohner | rund 11.500 |
+| Einwohner | rund 11.500 {{prüfen:aktuelle Einwohnerzahl (Statistisches Landesamt Sachsen)}} |
 | Fluss | **Zwönitz** (fließt nach Norden durch Thalheim und Burkhardtsdorf nach Chemnitz und bildet dort mit der Würschnitz die **Chemnitz**) |
 | Bahn | Strecke **Chemnitz – Aue** (Erzgebirgsbahn), Bahnhof Zwönitz |
 | Nachbarorte | Stollberg, Thalheim, Gornsdorf, Auerbach, Elterlein, Grünhain-Beierfeld, Lößnitz, Aue-Bad Schlema |
 
 ## Ortsteile
 
-Brünlos · Dorfchemnitz · Günsdorf · Hormersdorf · Kühnhaide · Lenkersdorf · Niederzwönitz · Zwönitz (Kernstadt)
+Brünlos · Dorfchemnitz · Günsdorf · Hormersdorf · Kühnhaide · Lenkersdorf · Niederzwönitz · Zwönitz (Kernstadt) {{prüfen:Liste der Ortsteile bei der Stadt Zwönitz prüfen}}
 
 *(Stand bitte bei der Stadtverwaltung prüfen, Gemeindegebiete ändern sich durch Eingemeindungen.)*
 
@@ -35,3 +35,13 @@ Brünlos · Dorfchemnitz · Günsdorf · Hormersdorf · Kühnhaide · Lenkersdor
 | Nächster Defibrillator | siehe [Kartenpunkte](kartenpunkte.md) |
 | Apotheke(n) | siehe [Kartenpunkte](kartenpunkte.md) |
 | Treffpunkt der Familie im Notfall | {{privat:treffpunkt}} |
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Stadt Zwönitz
+- Statistisches Landesamt des Freistaates Sachsen
+- Wikipedia-Artikel „Zwönitz“

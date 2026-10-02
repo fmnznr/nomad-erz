@@ -30,6 +30,7 @@ CONTENT = ROOT / "content"
 DIST = ROOT / "dist"
 POIS = ROOT / "data" / "osm" / "pois.json"
 PRIVAT = ROOT / "privat"
+BILDER = ROOT / "data" / "bilder"
 ZIM_NAME = "nomad-erzgebirge.zim"
 ZIM_NAME_PRIVAT = "nomad-erzgebirge-privat.zim"
 NICHT_EINGETRAGEN = "*nicht eingetragen*"
@@ -113,6 +114,87 @@ def render_md(text: str) -> tuple[str, str]:
     m = re.search(r"^#\s+(.+)$", text, re.M)
     title = m.group(1).strip() if m else "Ohne Titel"
     return title, body
+
+
+# ---------------------------------------------------------------- Bilder & Prüfmarker
+
+def load_bilder() -> dict:
+    f = BILDER / "bilder.json"
+    if not f.exists():
+        return {}
+    meta = json.loads(f.read_text(encoding="utf-8"))
+    return {t: m for t, m in meta.items() if (BILDER / m["datei"]).exists()}
+
+
+def fill_markers(text: str, rel: str, bilder: dict, used_bilder: set[str], pruefpunkte: list) -> str:
+    """{{bild:Titel}} → Vorschaubild (falls geladen), {{prüfen:Hinweis}} → Prüf-Badge."""
+    pre = rel_prefix(rel)
+
+    def bild(m: re.Match) -> str:
+        t = m.group(1).strip()
+        if t not in bilder:
+            return ""
+        used_bilder.add(t)
+        stem = bilder[t]["datei"].rsplit(".", 1)[0]
+        return (f'<a class="thumb" href="{pre}bilder/{stem}.html">'
+                f'<img src="{pre}bilder/{bilder[t]["datei"]}" alt="{html.escape(t)}" loading="lazy"></a>')
+
+    def pruefen(m: re.Match) -> str:
+        hinweis = m.group(1).strip()
+        pruefpunkte.append((rel, hinweis))
+        return (f'<a class="pruefen" href="{pre}pruefpunkte.html" '
+                f'title="{html.escape(hinweis)}">prüfen</a>')
+
+    text = re.sub(r"\{\{bild:([^}|]+)\}\}", bild, text)
+    return re.sub(r"\{\{prüfen:([^}|]+)\}\}", pruefen, text)
+
+
+def build_bild_pages(pages: dict, files: dict, bilder: dict, used: set[str]) -> None:
+    """Je Bild eine Seite mit großem Bild und Bildnachweis, dazu die Seite Bildnachweise."""
+    rows = []
+    for t in sorted(used):
+        m = bilder[t]
+        stem = m["datei"].rsplit(".", 1)[0]
+        files[f"bilder/{m['datei']}"] = (BILDER / m["datei"]).read_bytes()
+        lizenz = html.escape(m["lizenz"])
+        if m.get("lizenz_url"):
+            lizenz = f'{lizenz} ({html.escape(m["lizenz_url"])})'
+        credit = (f'Foto: {html.escape(m["urheber"])} · Lizenz: {lizenz} · '
+                  f'Quelle: Wikimedia Commons, „{html.escape(m["commons_datei"].replace("_", " "))}“')
+        body = (f"<h1>{html.escape(t)}</h1>\n"
+                f'<p><img class="gross" src="{m["datei"]}" alt="{html.escape(t)}"></p>\n'
+                f'<p class="muted">{credit}</p>\n'
+                '<p class="muted">Ein Foto ersetzt keine sichere Bestimmung. Arten variieren stark, '
+                'und Verwechslungsarten sehen oft sehr ähnlich aus.</p>')
+        pages[f"bilder/{stem}.html"] = (t, body, [("bildnachweise.html", "Bildnachweise")])
+        rows.append(f'<tr><td><a href="bilder/{stem}.html">{html.escape(t)}</a></td>'
+                    f'<td>{html.escape(m["urheber"])}</td><td>{html.escape(m["lizenz"])}</td></tr>')
+    if rows:
+        body = ("<h1>Bildnachweise</h1>\n<p>Alle Fotos stammen aus Wikimedia Commons und stehen unter freien "
+                "Lizenzen (meist CC BY-SA oder gemeinfrei). Die Urheber sind unten genannt. "
+                "Weitere Angaben stehen auf der jeweiligen Bildseite.</p>\n"
+                '<div class="table"><table><thead><tr><th>Bild</th><th>Urheber</th><th>Lizenz</th></tr></thead>'
+                f"<tbody>{''.join(rows)}</tbody></table></div>")
+    else:
+        body = ("<h1>Bildnachweise</h1>\n<p>In dieser Version sind keine Fotos enthalten. Sie werden mit "
+                "<code>python3 scripts/fetch_images.py</code> geladen (passiert automatisch im GitHub-Build).</p>")
+    pages["bildnachweise.html"] = ("Bildnachweise", body, [])
+
+
+def build_pruef_page(pages: dict, pruefpunkte: list, titles: dict) -> None:
+    items = []
+    for rel, hinweis in pruefpunkte:
+        items.append(f'<tr><td><a href="{rel}">{html.escape(titles.get(rel, rel))}</a></td>'
+                     f"<td>{html.escape(hinweis)}</td></tr>")
+    body = ("<h1>Offene Prüfpunkte</h1>\n"
+            "<p>Diese Angaben sind im Text mit <span class=\"pruefen\">prüfen</span> markiert. Sie stammen nicht "
+            "aus einer geprüften Quelle oder ändern sich regelmäßig. Bitte bei Gelegenheit nachprüfen und im "
+            "Projekt korrigieren.</p>\n"
+            '<div class="table"><table><thead><tr><th>Seite</th><th>Was prüfen?</th></tr></thead>'
+            f"<tbody>{''.join(items)}</tbody></table></div>\n"
+            "<p>Wie die fachliche Prüfung organisiert ist, steht unter "
+            "<a href=\"hinweise.html#fachliche-prufung\">Hinweise</a>.</p>")
+    pages["pruefpunkte.html"] = ("Offene Prüfpunkte", body, [])
 
 
 # ---------------------------------------------------------------- Private Angaben
@@ -336,14 +418,15 @@ def write_zim(pages: dict, files: dict, out: Path, private: bool = False) -> Non
             "Creator": "nomad-erz",
             "Publisher": "nomad-erz",
             "Date": date.today().isoformat(),
-            "Tags": "_category:other;_pictures:no;_videos:no;_details:yes;erzgebirge;sachsen;survival",
+            "Tags": "_category:other;_pictures:yes;_videos:no;_details:yes;erzgebirge;sachsen;survival",
         }
         for k, v in meta.items():
             c.add_metadata(k, v)
         for path, (title, html_doc) in pages.items():
             c.add_item(Entry(path, title, "text/html", html_doc.encode("utf-8"), front=True))
         for path, content in files.items():
-            mime = {"css": "text/css", "gpx": "application/gpx+xml"}.get(path.rsplit(".", 1)[-1], "application/octet-stream")
+            mime = {"css": "text/css", "gpx": "application/gpx+xml", "jpg": "image/jpeg",
+                    "png": "image/png"}.get(path.rsplit(".", 1)[-1], "application/octet-stream")
             c.add_item(Entry(path, path, mime, content))
 
 
@@ -358,11 +441,16 @@ def main() -> None:
     values, private_pages = load_privat(not args.ohne_privat)
     is_private = bool(values or private_pages)
     used: set[str] = set()
+    bilder = load_bilder()
+    used_bilder: set[str] = set()
+    pruefpunkte: list[tuple[str, str]] = []
 
     raw_pages: dict[str, tuple[str, str, list]] = {}
     for md_file in sorted(CONTENT.rglob("*.md")):
         rel = md_file.relative_to(CONTENT).with_suffix(".html").as_posix()
-        title, body = render_md(fill_privat(md_file.read_text(encoding="utf-8"), values, used))
+        text = fill_markers(fill_privat(md_file.read_text(encoding="utf-8"), values, used),
+                            rel, bilder, used_bilder, pruefpunkte)
+        title, body = render_md(text)
         raw_pages[rel] = (title, body, crumbs_for(rel))
 
     unknown = sorted(set(values) - used)
@@ -385,6 +473,8 @@ def main() -> None:
 
     files: dict[str, bytes] = {"style.css": (ROOT / "scripts" / "style.css").read_bytes()}
     build_poi_pages(raw_pages, files)
+    build_bild_pages(raw_pages, files, bilder, used_bilder)
+    build_pruef_page(raw_pages, pruefpunkte, {p: t for p, (t, _, _) in raw_pages.items()})
 
     pages = {p: (t, page(p, t, b, cr)) for p, (t, b, cr) in raw_pages.items()}
 
@@ -424,7 +514,8 @@ def main() -> None:
         if gdir.exists():
             shutil.rmtree(gdir)
         shutil.copytree(html_dir / "gpx", gdir)
-    print(f"{len(pages)} Seiten → {html_dir.relative_to(ROOT)}")
+    print(f"{len(pages)} Seiten → {html_dir.relative_to(ROOT)} "
+          f"({len(used_bilder)} Bilder, {len(pruefpunkte)} Prüfpunkte)")
 
     if is_private:
         print(f"🔒 Private Angaben eingebunden ({len(values)} Einträge, {len(private_pages)} Seiten) "

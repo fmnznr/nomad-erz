@@ -14,7 +14,7 @@
 - **Bäche abwärts folgen** führt fast immer zu Siedlungen, Straßen und Bahnstrecken. Vorsicht an Steilstufen und Schluchten.
 - **Landmarken** (bei Sicht):
 
-| Landmarke | Richtung von Zwönitz | Entfernung (ca.) |
+| Landmarke | Richtung von Zwönitz {{prüfen:Richtungen und Entfernungen auf der Karte nachmessen}} | Entfernung (ca.) |
 |---|---|---|
 | Fichtelberg (1215 m, Wetterwarte, Hotel) und Keilberg/Klínovec (1244 m, Fernsehturm) | Süd-Südost | 25 km |
 | Auersberg (1019 m, Aussichtsturm) | Süd-Südwest | 25 km |
@@ -32,7 +32,7 @@
 
 ## Kompass und Karte
 
-- **Missweisung** im Erzgebirge ca. **4–5° Ost**, für Wanderungen vernachlässigbar.
+- **Missweisung** im Erzgebirge ca. **4–5° Ost** {{prüfen:aktuelle Deklination (World Magnetic Model)}}, für Wanderungen vernachlässigbar.
 - Karte einnorden: Kompassnadel parallel zum Kartenrand bzw. Gitter ausrichten.
 - Marschzahl: Richtung auf der Karte bestimmen, Kompass drehen, Nadel einnorden und dann der Richtung folgen. Zwischenziele (Bäume, Felsen) anpeilen.
 
@@ -43,3 +43,12 @@
 3. **Beobachten** – Gelände, Bäche, Geräusche (Straßen, Bahn, Kirchenglocken), Sonnenstand.
 4. **Planen** – zurück zum letzten bekannten Punkt, einem Bach oder Weg folgen, **vor Dunkelheit** Schutz suchen.
 - Bei Verletzung oder Dunkelheit: **bleiben, wo man ist**, Notruf absetzen, Signale geben (Pfeife: **6× pro Minute**, Licht).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- NOAA/NCEI: World Magnetic Model (magnetische Deklination)
+- Staatsbetrieb Geobasisinformation und Vermessung Sachsen (GeoSN): topografische Karten

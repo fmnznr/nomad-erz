@@ -42,6 +42,7 @@ Das Skript sucht jeweils die **neueste Version** im Kiwix-Katalog, setzt abgebro
 ```bash
 pip install -r requirements.txt
 python3 scripts/fetch_osm.py      # Kartenpunkte aus OpenStreetMap laden (Internet nötig)
+python3 scripts/fetch_images.py   # Artfotos von Wikipedia/Wikimedia Commons laden (Internet nötig)
 python3 scripts/build_zim.py      # → dist/nomad-erzgebirge.zim, dist/html/, dist/gpx/
 ```
 

@@ -1,5 +1,8 @@
 # Vergiftungen
 
+!!! warning "Fachlich noch nicht geprüft"
+    Diese Seite wurde noch nicht von Fachleuten gegengelesen (Giftinformationszentrum, Notfallmedizin). Bis dahin gilt sie nur als Orientierung. Siehe [Hinweise](../hinweise.md#fachliche-prufung).
+
 !!! danger "Sofort"
     - Bewusstlosigkeit, Atemnot, Krampfanfall, Kreislaufprobleme → **112**
     - Sonst → **Giftnotruf Erfurt: 0361 730 730** (24 h, kostenlos beraten)
@@ -47,3 +50,13 @@ Siehe [Giftpflanzen](../natur/giftpflanzen.md). Kinder haben beim Spielen meist 
 ## Tiere
 
 - Hund oder Katze hat etwas Giftiges gefressen → Tierarzt bzw. Tiernotdienst. Typisch giftig für Tiere: Schokolade, Weintrauben/Rosinen, Xylit, Zwiebeln, Rattengift, Eibe.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- GGIZ Erfurt
+- BfR: Ärztliche Mitteilungen bei Vergiftungen
+- DGfM: Pilzvergiftungssyndrome

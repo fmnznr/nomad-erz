@@ -39,7 +39,7 @@ Erzgebirgsbäche schwellen bei Starkregen **innerhalb von Minuten bis Stunden** 
 ## Hitze, Dürre, Waldbrand
 
 - Die Dürresommer seit 2018 haben auch im Erzgebirge zu Waldbränden geführt.
-- **Waldbrandgefahrenstufen** (DWD/Sachsenforst) **1 bis 5**. Ab Stufe 4 kann der Landkreis den Wald teilweise sperren.
+- **Waldbrandgefahrenstufen** (DWD/Sachsenforst) **1 bis 5**. Ab Stufe 4 kann der Landkreis den Wald teilweise sperren. {{prüfen:Regeln je Waldbrandgefahrenstufe in Sachsen}}
 - Im Wald gilt: kein Feuer, nicht rauchen, nicht auf trockenem Gras parken (heißer Katalysator), keine Glasflaschen liegen lassen.
 - **Brand entdeckt:** 112, Ort möglichst genau angeben ([Rettungspunkt](notrufe.md)). Quer zum Wind und bergab weggehen, **nicht bergauf** (Feuer läuft bergauf schneller).
 
@@ -59,3 +59,14 @@ Erzgebirgsbäche schwellen bei Starkregen **innerhalb von Minuten bis Stunden** 
 | Abendrot, klare Nacht | Oft schön, nachts kalt, Frost möglich (Spätfrost bis Ende Mai!) |
 | Gute Fernsicht bis zum Fichtelberg und Keilberg | Oft feuchte Luft vor Wetterwechsel |
 | Rauch steigt senkrecht | Stabile Hochdrucklage |
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Deutscher Wetterdienst (DWD) – https://www.dwd.de
+- Landeshochwasserzentrum Sachsen
+- Sachsenforst: Waldbrandgefahrenstufen
+- Ausschuss für Blitzschutz und Blitzforschung (ABB) im VDE: Verhalten bei Gewitter

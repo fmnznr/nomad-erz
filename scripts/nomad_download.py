@@ -210,6 +210,7 @@ def eigene_dateien(ziel: Path, nur_anzeigen: bool) -> None:
             return
         try:
             subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_osm.py")], check=False)
+            subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_images.py")], check=False)
             subprocess.run([sys.executable, str(ROOT / "scripts" / "build_zim.py")], check=True)
             for z in (ROOT / "dist").glob("nomad-erzgebirge*.zim"):
                 shutil.copy2(z, kiwix / z.name)

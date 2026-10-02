@@ -1,7 +1,7 @@
 # Draußen: Feuer, Wärme, Unterschlupf
 
 !!! warning "Rechtliches"
-    Offenes Feuer im Wald und in Waldnähe (Abstand in Sachsen: **100 m**) sowie Zelten im Wald sind **ohne Erlaubnis verboten**. Die folgenden Hinweise gelten für **echte Notlagen** oder ausgewiesene Plätze (Grillplätze, Trekkingplätze).
+    Offenes Feuer im Wald und in Waldnähe (Abstand in Sachsen: **100 m** {{prüfen:Abstand laut Sächsischem Waldgesetz}}) sowie Zelten im Wald sind **ohne Erlaubnis verboten**. Die folgenden Hinweise gelten für **echte Notlagen** oder ausgewiesene Plätze (Grillplätze, Trekkingplätze).
 
 ## Prioritäten (Dreierregel)
 
@@ -51,3 +51,12 @@
 - **Alpines Notsignal:** **6 Signale pro Minute** (pfeifen, blinken, rufen), dann 1 Minute Pause, wiederholen. Antwort: 3 Signale pro Minute.
 - Hubschrauber: **beide Arme hoch (Y = „Yes, Hilfe“)**, ein Arm hoch und einer runter = „Nein“.
 - Auffällige Farben auf freier Fläche auslegen. Am Tag rauchiges Feuer (grüne Zweige), nachts heller Lichtschein.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Sächsisches Waldgesetz (SächsWaldG)
+- Sachsenforst: Regeln für den Waldbesuch

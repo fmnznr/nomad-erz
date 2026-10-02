@@ -27,6 +27,17 @@ jobs:
         run: python3 scripts/fetch_osm.py
         continue-on-error: true
 
+      - name: Bilder-Zwischenspeicher
+        uses: actions/cache@v4
+        with:
+          path: data/bilder
+          key: bilder-${{ hashFiles('content/**/*.md') }}
+          restore-keys: bilder-
+
+      - name: Bilder von Wikipedia/Wikimedia Commons laden
+        run: python3 scripts/fetch_images.py
+        continue-on-error: true
+
       - name: ZIM bauen
         run: python3 scripts/build_zim.py
 

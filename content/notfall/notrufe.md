@@ -27,7 +27,7 @@ Ruhig bleiben, die Leitstelle führt durch das Gespräch. Wichtig ist vor allem:
 5. **Warten auf Rückfragen**, nicht selbst auflegen.
 
 !!! tip "Rettungspunkte im Wald"
-    Im Wald stehen an Wegkreuzungen **Rettungspunkt-Schilder** (grünes Schild mit weißem Kreuz und Nummer). Diese Nummer kennt die Leitstelle und kann den Rettungsdienst direkt dorthin schicken. Die App „Hilfe im Wald“ zeigt den nächsten Rettungspunkt auch offline an.
+    Im Wald stehen an Wegkreuzungen **Rettungspunkt-Schilder** (grünes Schild mit weißem Kreuz und Nummer). Diese Nummer kennt die Leitstelle und kann den Rettungsdienst direkt dorthin schicken. Die App „Hilfe im Wald“ zeigt den nächsten Rettungspunkt auch offline an. {{prüfen:Aussehen der Schilder, App-Name und Offline-Funktion prüfen}}
 
 ## Persönliche & lokale Nummern
 
@@ -51,7 +51,18 @@ Diese Angaben kommen aus deiner privaten Datei `privat/eintraege.txt` und sind n
 Die aktuelle Liste mit Koordinaten aus OpenStreetMap steht unter [Kartenpunkte](../geografie/kartenpunkte.md). Für Zwönitz kommen v. a. infrage:
 
 - **Helios Klinikum Aue** (ca. 10 km südwestlich)
-- **Erzgebirgsklinikum** mit Standorten u. a. in **Stollberg** (ca. 10 km nördlich) und **Annaberg-Buchholz** (ca. 15 km südöstlich)
+- **Erzgebirgsklinikum** mit Standorten u. a. in **Stollberg** (ca. 10 km nördlich) und **Annaberg-Buchholz** (ca. 15 km südöstlich) {{prüfen:Standorte und 24-h-Notaufnahmen prüfen}}
 - **Klinikum Chemnitz** (ca. 20–25 km nordöstlich): Maximalversorgung, Kinderklinik, Schwerverletzte
 
 Welcher Standort eine Notaufnahme rund um die Uhr hat, solltest du vorab prüfen und in deine privaten Angaben übernehmen.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- GGIZ Erfurt (Giftnotruf)
+- Kuratorium für Waldarbeit und Forsttechnik (KWF): Rettungspunkte im Wald
+- Notruf-App nora der Bundesländer
+- Stadt Zwönitz und Landratsamt Erzgebirgskreis – https://www.erzgebirgskreis.de
