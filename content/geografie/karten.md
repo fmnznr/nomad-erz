@@ -4,7 +4,7 @@
 
 - **Kostenlos, ohne Werbung, ohne Tracking**, Daten aus OpenStreetMap.
 - Funktioniert vollständig offline: Suche, Routing (zu Fuß, Rad, Auto), **Wanderwege**, **Höhenlinien**.
-- Download: App öffnen → *Karten herunterladen* → **Deutschland → Sachsen** (Teilkarte mit dem Erzgebirge; der Name kann je nach Version „Sachsen“ oder „Sachsen Süd/West“ lauten). Zusätzlich empfohlen: **Tschechien – Karlsbader Region** und **Aussiger Region** (Grenzgebiet).
+- Download (im WLAN): in der Suche **Zwönitz** eingeben, Karte dorthin bewegen → unten **„Karte herunterladen“** antippen. Nachbarregionen (Chemnitz, Annaberg, Tschechien) genauso: Karte verschieben → herunterladen.
 - Speicherbedarf: einige hundert MB.
 - Höhenlinien in den Einstellungen (Ebenen → *Höhenlinien*) aktivieren.
 - Monatlich bei WLAN aktualisieren.
