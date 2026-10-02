@@ -2,6 +2,8 @@
 
 ## Klimawerte (Richtwerte, gerundet)
 
+Die Werte sind geschätzt. {{prüfen:Klimawerte mit den DWD-Mittelwerten 1991–2020 abgleichen}}
+
 | | Zwönitz (ca. 520 m) | Fichtelberg (1215 m) | Chemnitz (ca. 300 m) |
 |---|---|---|---|
 | Jahresmitteltemperatur | ca. 7 °C | ca. 3–4 °C | ca. 9 °C |
@@ -44,3 +46,12 @@ Im Vergleich zum Flachland liegt die Saison etwa **2–3 Wochen später**, die V
 | **Obstbäume** | Robuste, spät blühende Sorten | Spätfrost gefährdet die Blüte |
 
 Böden: meist sauer → **kalken** und mit Kompost verbessern.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- DWD: Klimadaten der Stationen Fichtelberg und Chemnitz (Mittelwerte 1991–2020) – https://www.dwd.de
+- LfULG: Klimawandel in Sachsen

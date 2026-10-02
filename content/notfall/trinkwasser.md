@@ -41,3 +41,14 @@ Ein Mensch braucht mindestens **2 Liter Trinkwasser pro Tag**, bei Hitze oder An
 
 - Gekauftes Mineralwasser: Mindesthaltbarkeitsdatum beachten, kühl und dunkel lagern.
 - Selbst abgefülltes Leitungswasser: saubere, lebensmittelechte Kanister verwenden, **alle 6 Monate** tauschen (oder mit Silberionen-Präparat konservieren).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Bundesamt für Bevölkerungsschutz und Katastrophenhilfe (BBK) – https://www.bbk.bund.de
+- Weltgesundheitsorganisation (WHO): Guidelines for drinking-water quality
+- Umweltbundesamt (UBA): Trinkwasser
+- LfULG: Bergbaubedingte Belastungen von Gewässern

@@ -21,7 +21,7 @@ Erkennen kannst du sie an Schildern (dreieckig, mit Tiersymbol und Aufschrift �
 - **Mothäuser Heide** bei Marienberg (Hochmoor)
 - **Schwarzwassertal** (Bachtal, Grenzgebiet)
 - **Zechengrund** bei Oberwiesenthal (Bergwiesen)
-- **Hermannsdorfer Wiesen** (Bergwiesen)
+- **Hermannsdorfer Wiesen** (Bergwiesen) {{prüfen:Auswahl der NSG mit dem amtlichen Verzeichnis abgleichen}}
 
 Außerdem gibt es viele kleinere NSG und Flächennaturdenkmale rund um Zwönitz. Die Grenzen zeigen die Offline-Karten.
 
@@ -31,3 +31,12 @@ Außerdem gibt es viele kleinere NSG und Flächennaturdenkmale rund um Zwönitz.
 - Kein Müll, kein Feuer, kein Lärm.
 - Seltene Pflanzen (Arnika, Orchideen, Sonnentau, Trollblume, Bärwurz in NSG) nicht pflücken.
 - Drohnen: In NSG grundsätzlich verboten.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- LfULG: Schutzgebietsverzeichnis Sachsen
+- Naturpark Erzgebirge/Vogtland

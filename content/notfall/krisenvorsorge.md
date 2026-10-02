@@ -67,3 +67,12 @@ Siehe [Wettergefahren](wetter-gefahren.md#starkregen-und-hochwasser).
 - Notgepäck, Dokumente, Medikamente, Haustiere mitnehmen.
 - Strom, Gas und Wasser abstellen, wenn dazu aufgefordert. Fenster und Türen schließen.
 - Nachbarn informieren, Hilfe anbieten.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- BBK: „Ratgeber für Notfallvorsorge und richtiges Handeln in Notsituationen“ und Checkliste – https://www.bbk.bund.de
+- BBK: Warn-App NINA und bundesweiter Warntag

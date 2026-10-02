@@ -2,10 +2,12 @@
 
 ## Zecken
 
+{{bild:Gemeiner Holzbock}}
+
 - Aktiv ab ca. **7 °C**, also von etwa März bis November, in milden Wintern sogar ganzjährig.
 - Sitzen in **Gras, Farn und Gebüsch** bis ca. 1 m Höhe, nicht auf Bäumen.
 - Übertragen **Borreliose** (Bakterien, überall in Deutschland) und **FSME** (Virus, Hirnhautentzündung).
-- **FSME:** Sachsen hat mehrere FSME-Risikogebiete, auch im Erzgebirge und angrenzenden Kreisen. Das RKI aktualisiert die Liste jährlich. Eine **Impfung** ist für Menschen, die viel draußen sind, empfehlenswert (Hausarzt fragen).
+- **FSME:** Sachsen hat mehrere FSME-Risikogebiete, auch im Erzgebirge und angrenzenden Kreisen. {{prüfen:Ist der Erzgebirgskreis aktuell RKI-Risikogebiet? (jährliche RKI-Liste)}} Das RKI aktualisiert die Liste jährlich. Eine **Impfung** ist für Menschen, die viel draußen sind, empfehlenswert (Hausarzt fragen).
 
 ### Schutz
 
@@ -31,7 +33,7 @@
 | Insekt | Hinweise |
 |---|---|
 | **Wespe, Biene, Hummel** | Stich kühlen. Bienenstachel wegkratzen, nicht herausdrücken. |
-| **Hornisse** | Friedlicher als ihr Ruf. Das Gift ist nicht stärker als bei Wespen. Nester nicht stören (geschützt). |
+| {{bild:Hornisse}} **Hornisse** | Friedlicher als ihr Ruf. Das Gift ist nicht stärker als bei Wespen. Nester nicht stören (geschützt). |
 | **Bremse** | Schmerzhafter Biss, bei Gewitterwetter und an Gewässern |
 | **Mücken, Gnitzen** | An Teichen und Mooren in der Dämmerung |
 | **Kriebelmücken** | An Bächen, Bisse jucken stark und schwellen an |
@@ -46,3 +48,12 @@
 - **Ameisen**: Waldameisenhügel sind geschützt.
 - **Borkenkäfer**: für Menschen harmlos, aber die Ursache für viele absterbende Fichten. Achtung vor umstürzenden Bäumen.
 - **Kreuzspinne, Wespenspinne**: harmlos. Der **Ammen-Dornfinger** (seltener, mit Gespinsten in hohem Gras) kann schmerzhaft beißen.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- RKI: FSME-Risikogebiete (Epidemiologisches Bulletin, jährlich) und RKI-Ratgeber Borreliose – https://www.rki.de
+- Ständige Impfkommission (STIKO): FSME-Impfempfehlung

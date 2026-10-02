@@ -18,3 +18,13 @@ In Höhenlagen beginnt die Vegetation **etwa 2–3 Wochen später** als im Flach
 | **Dezember** | Fichtennadeln, Hagebuttenreste | Samtfußrübling | Wintersaison, Glätte |
 
 Mehr: [Essbare Wildpflanzen](essbare-wildpflanzen.md) · [Pilze](pilze.md)
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Rothmaler: „Exkursionsflora von Deutschland“
+- DGfM: Pilzsaison und Pilzberatung
+- Eigene Beobachtungen vor Ort

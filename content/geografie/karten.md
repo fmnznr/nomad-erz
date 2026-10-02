@@ -40,3 +40,12 @@ Die gleichen Punkte stehen auch als Liste in dieser Datenbank: [Kartenpunkte](ka
 ## Papierkarte als Backup
 
 Eine **topografische Wanderkarte 1:25.000 oder 1:33.000** (z. B. Sachsen Kartographie, Landesamt GeoSN) für die Region Zwönitz/Aue/Annaberg plus ein einfacher **Plattenkompass** gehören in jeden Notfallrucksack. Akkus können leer sein, Papier nicht.
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- OpenStreetMap – https://www.openstreetmap.org
+- Organic Maps: Hilfe und FAQ

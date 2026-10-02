@@ -18,7 +18,7 @@
 | **Kobalt** (Blaufarben) | Schneeberg, Aue |
 | **Uran** (Wismut) | Aue-Bad Schlema, Johanngeorgenstadt, Pöhla |
 | **Eisen** | viele kleine Gruben |
-| **Fluss- und Schwerspat** | Niederschlag bei Bärenstein (noch aktiv) |
+| **Fluss- und Schwerspat** | Niederschlag bei Bärenstein (noch aktiv) {{prüfen:ist das Bergwerk noch in Betrieb?}} |
 | **Wolfram** | Pöhla |
 | **Kalk, Marmor** | Lengefeld, Hammerunterwiesenthal |
 
@@ -33,3 +33,12 @@
 ## Radon
 
 Durch die uranhaltigen Gesteine gehört das Erzgebirge zu den Regionen mit der **höchsten Radonbelastung** in Deutschland. → [Radon](../notfall/bergbau-gefahren.md#radon)
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- Pälchen, Walter (Hrsg.): „Geologie von Sachsen“
+- LfULG: Geologie und Rohstoffe

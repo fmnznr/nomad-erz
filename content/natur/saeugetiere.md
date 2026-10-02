@@ -4,26 +4,26 @@
 
 | Art | Häufigkeit | Hinweise |
 |---|---|---|
-| **Reh** | Sehr häufig | Kitze im Mai/Juni liegen allein im Gras. **Nicht anfassen**, die Mutter kommt zurück. |
-| **Rothirsch** | Häufig im Westerzgebirge | Brunft im Sept./Okt. (Röhren). Abstand halten. |
-| **Wildschwein** | Häufig | Bachen mit Frischlingen (Feb.–Mai) können angreifen: ruhig zurückziehen, nicht wegrennen, nicht zwischen Bache und Junge geraten. **Afrikanische Schweinepest** in Sachsen: tot aufgefundene Wildschweine dem Landratsamt / Veterinäramt melden und nicht anfassen. |
-| **Mufflon** | Lokal | Wildschaf, eingebürgert. |
-| **Wolf** | Breitet sich in Sachsen aus, auch im Erzgebirge nachgewiesen | Für Menschen in der Regel ungefährlich. Bei Begegnung: stehen bleiben, auf sich aufmerksam machen (laut sprechen, groß machen), langsam zurückgehen. **Nicht füttern.** Hunde anleinen. Sichtungen und Risse an die Fachstelle Wolf (LfULG) melden. |
-| **Luchs** | Sehr selten, einzelne Nachweise im Grenzgebiet | Scheu, für Menschen ungefährlich. |
+| {{bild:Reh}} **Reh** | Sehr häufig | Kitze im Mai/Juni liegen allein im Gras. **Nicht anfassen**, die Mutter kommt zurück. |
+| {{bild:Rothirsch}} **Rothirsch** | Häufig im Westerzgebirge | Brunft im Sept./Okt. (Röhren). Abstand halten. |
+| {{bild:Wildschwein}} **Wildschwein** | Häufig | Bachen mit Frischlingen (Feb.–Mai) können angreifen: ruhig zurückziehen, nicht wegrennen, nicht zwischen Bache und Junge geraten. **Afrikanische Schweinepest** in Sachsen: tot aufgefundene Wildschweine dem Landratsamt / Veterinäramt melden und nicht anfassen. |
+| {{bild:Mufflon}} **Mufflon** | Lokal | Wildschaf, eingebürgert. |
+| {{bild:Wolf}} **Wolf** | Breitet sich in Sachsen aus, auch im Erzgebirge nachgewiesen {{prüfen:aktuelle Wolfsterritorien (Fachstelle Wolf)}} | Für Menschen in der Regel ungefährlich. Bei Begegnung: stehen bleiben, auf sich aufmerksam machen (laut sprechen, groß machen), langsam zurückgehen. **Nicht füttern.** Hunde anleinen. Sichtungen und Risse an die Fachstelle Wolf (LfULG) melden. |
+| {{bild:Eurasischer Luchs}} **Luchs** | Sehr selten, einzelne Nachweise im Grenzgebiet {{prüfen:aktuelle Luchs-Nachweise (LfULG)}} | Scheu, für Menschen ungefährlich. |
 | **Elch** | Ausnahmegast aus Tschechien | – |
 
 ## Raubtiere und Marder
 
 | Art | Hinweise |
 |---|---|
-| **Rotfuchs** | Häufig. Überträger des **Fuchsbandwurms**. Tollwut gilt in Deutschland als ausgerottet, dennoch keine zutraulichen Wildtiere anfassen. |
-| **Dachs** | Baue in Hängen, nachtaktiv. |
-| **Waschbär** | Invasiv, nimmt stark zu. Plündert Mülltonnen und Dachböden und überträgt den **Waschbärspulwurm** (Kot nicht anfassen). |
+| {{bild:Rotfuchs}} **Rotfuchs** | Häufig. Überträger des **Fuchsbandwurms**. Tollwut gilt in Deutschland als ausgerottet, dennoch keine zutraulichen Wildtiere anfassen. |
+| {{bild:Europäischer Dachs}} **Dachs** | Baue in Hängen, nachtaktiv. |
+| {{bild:Waschbär}} **Waschbär** | Invasiv, nimmt stark zu. Plündert Mülltonnen und Dachböden und überträgt den **Waschbärspulwurm** (Kot nicht anfassen). |
 | **Marderhund** | Invasiv, selten. |
 | **Baummarder, Steinmarder** | Steinmarder beißt Kabel in Autos an. |
 | **Iltis, Hermelin, Mauswiesel** | Hermelin ist im Winter weiß mit schwarzer Schwanzspitze. |
-| **Fischotter** | An sauberen Bächen und Teichen, streng geschützt. |
-| **Wildkatze** | Seltene Nachweise. Kaum von getigerten Hauskatzen zu unterscheiden (buschiger, stumpfer Schwanz mit schwarzen Ringen). |
+| {{bild:Fischotter}} **Fischotter** | An sauberen Bächen und Teichen, streng geschützt. |
+| {{bild:Europäische Wildkatze}} **Wildkatze** | Seltene Nachweise. Kaum von getigerten Hauskatzen zu unterscheiden (buschiger, stumpfer Schwanz mit schwarzen Ringen). |
 
 ## Kleinsäuger
 
@@ -54,3 +54,14 @@
 - **Hantavirus**: durch Staub mit Mäusekot (Dachböden, Schuppen). Vor dem Fegen befeuchten und eine FFP2-Maske tragen.
 - **Tote Tiere** nicht berühren und Hunde fernhalten (Schweinepest, Vogelgrippe).
 - Siehe auch [Zecken & Insekten](zecken-insekten.md).
+
+---
+
+## Quellen zum Nachprüfen
+
+Diese Seite wurde aus allgemeinem Fachwissen zusammengestellt, nicht direkt aus den folgenden Quellen. Sie sind aber maßgeblich, um die Angaben zu prüfen und zu ergänzen:
+
+- LfULG – Fachstelle Wolf; Kontaktbüro „Wolf in Sachsen“
+- Friedrich-Loeffler-Institut (FLI): Afrikanische Schweinepest, Tollwut
+- Robert Koch-Institut (RKI): Fuchsbandwurm, Hantaviren – https://www.rki.de
+- Landesjagdverband Sachsen
