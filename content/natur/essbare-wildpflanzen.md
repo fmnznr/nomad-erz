@@ -38,7 +38,7 @@
 |---|---|---|---|
 | {{bild:Heidelbeere}} **Heidelbeere** | Juli–Aug. | Roh essbar, innen blau | ⚠️ **Rauschbeere** (innen hell, in Mooren; macht Kopfschmerzen und Übelkeit), ⚠️ **Tollkirsche** (einzelne glänzende schwarze „Kirsche“ mit sternförmigem Kelch, hohe Staude, **tödlich**) |
 | {{bild:Himbeere}} **Himbeere** | Juli–Aug. | Roh essbar | – |
-| {{bild:Brombeere}} **Brombeere** | Aug.–Sept. | Roh essbar | – |
+| **Brombeere** | Aug.–Sept. | Roh essbar | – |
 | {{bild:Wald-Erdbeere}} **Walderdbeere** | Juni–Juli | Roh essbar | ⚠️ Scheinerdbeere (fade, ungiftig) |
 | {{bild:Preiselbeere}} **Preiselbeere** | Aug.–Sept. | Herb, gekocht besser | ⚠️ **Bärentraube** (selten), ⚠️ **Maiglöckchenbeeren** |
 | {{bild:Vogelbeere}} **Vogelbeere (Eberesche)** | Aug.–Okt. | **Nur gekocht** (Mus, Gelee) | – |
