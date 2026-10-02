@@ -5,7 +5,7 @@
 | Baum | Erkennen | Nutzen / Hinweis |
 |---|---|---|
 | {{bild:Gemeine Fichte}} **Gemeine Fichte** | Nadeln rundum am Zweig, spitz, stechen; Zapfen hängen, fallen ganz ab | Häufigster Baum. Junge Triebspitzen (Mai) essbar und als Tee. Harz zur Wundabdeckung und als Feueranzünder. |
-| {{bild:Weißtanne}} **Weiß-Tanne** | Nadeln flach, stumpf, unterseits zwei weiße Streifen; Zapfen stehen aufrecht und zerfallen am Baum | Selten, wird wieder angepflanzt. |
+| **Weiß-Tanne** | Nadeln flach, stumpf, unterseits zwei weiße Streifen; Zapfen stehen aufrecht und zerfallen am Baum | Selten, wird wieder angepflanzt. |
 | {{bild:Waldkiefer}} **Wald-Kiefer** | Je 2 lange Nadeln; rötliche Rinde oben am Stamm | Auf trockenen und armen Böden. Kienspan als Zunder. |
 | {{bild:Europäische Lärche}} **Europäische Lärche** | Weiche Nadeln in Büscheln, im Herbst gelb, im Winter kahl | Unter Lärchen wächst der Goldröhrling. |
 | {{bild:Europäische Eibe}} **Eibe** | Flache, dunkle, weiche Nadeln ohne weiße Streifen; rote Beerenhülle | **Stark giftig** (alles außer dem roten Fruchtfleisch; die Samen sind tödlich). Meist in Gärten und Parks. |
@@ -31,7 +31,7 @@
 | {{bild:Schwarzer Holunder}} **Schwarzer Holunder** | Blüten (Juni) für Sirup und Pfannkuchen; Beeren (Aug./Sept.) **nur gekocht** essen, roh giftig (Sambunigrin). |
 | {{bild:Roter Holunder}} **Roter Holunder / Trauben-Holunder** | Rote Beeren im Juli. Die **Samen sind giftig**: nur entsteint und gekocht verwenden. Im Zweifel meiden. |
 | {{bild:Himbeere}} **Himbeere** | Sehr häufig auf Kahlschlägen. Blätter als Tee. |
-| {{bild:Echte Brombeere}} **Brombeere** | Beeren Aug./Sept.; Blätter als Tee. |
+| {{bild:Brombeere}} **Brombeere** | Beeren Aug./Sept.; Blätter als Tee. |
 | {{bild:Heidelbeere}} **Heidelbeere** | Bodendeckend im Fichtenwald, Beeren Juli/August. |
 | {{bild:Preiselbeere}} **Preiselbeere** | Immergrün, Blattunterseite punktiert; rote Beeren Aug./Sept., schmecken roh herb. |
 | {{bild:Hunds-Rose}} **Hunds-Rose** | Hagebutten nach dem ersten Frost. Vitamin-C-reich, die haarigen Kerne entfernen. |

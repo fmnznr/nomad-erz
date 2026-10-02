@@ -58,7 +58,7 @@ Im Erzgebirge gibt es **keine tödlich giftigen Röhrlinge**. Der rot-porige Sat
 |---|---|---|---|
 | {{bild:Echter Pfifferling}} **Pfifferling (Echter)** | Juni–Okt. | Dottergelb, **Leisten** statt Lamellen, die am Stiel herablaufen; Fleisch weiß; fruchtiger Duft | **Spitzgebuckelter Raukopf** (orange-braun, echte rostbraune Lamellen), Falscher Pfifferling (orange, dünne echte Lamellen) |
 | {{bild:Krause Glucke}} **Krause Glucke** | Aug.–Okt. | Badeschwammartig, am Fuß von Kiefern | – (unverwechselbar). Gründlich putzen. |
-| {{bild:Parasol (Pilz)}} **Parasol (Riesenschirmling)** | Juli–Okt. | Hut bis 30 cm, **genatterter Stiel**, **verschiebbarer Ring**; nur Hüte essen | **Kleine giftige Schirmlinge** (Hut unter 10 cm → nicht sammeln), Safranschirmling |
+| {{bild:Gemeiner Riesenschirmling}} **Parasol (Riesenschirmling)** | Juli–Okt. | Hut bis 30 cm, **genatterter Stiel**, **verschiebbarer Ring**; nur Hüte essen | **Kleine giftige Schirmlinge** (Hut unter 10 cm → nicht sammeln), Safranschirmling |
 | {{bild:Honiggelber Hallimasch}} **Hallimasch** | Sept.–Nov. | Büschelig an Holz, honiggelb, Ring | **Roh giftig.** Abkochen und Kochwasser weggießen. Verwechslung mit Gifthäubling und Schwefelkopf. Für Einsteiger ungeeignet. |
 | {{bild:Gemeines Stockschwämmchen}} **Stockschwämmchen** | Apr.–Nov. | Büschelig an Laubholzstümpfen, zweifarbiger Hut, Stiel unter dem Ring **schuppig** | **Gifthäubling (tödlich)** → Nur für Erfahrene! |
 | {{bild:Edel-Reizker}} **Edel-/Fichtenreizker** | Aug.–Okt. | Orange, karottenroter Milchsaft | Giftreizker (weißer, scharfer Milchsaft, zottiger Hutrand) |
